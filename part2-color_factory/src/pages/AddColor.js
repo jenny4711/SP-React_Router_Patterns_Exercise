@@ -30,6 +30,7 @@ const AddColor = ({ addColor }) => {
   return (
     // <div className="AddColor">
       <div className="AddColor-cont" style={{ backgroundColor: color.hex }}>
+        <h2>This is Add Picker</h2>
         <form className='AddColor-form' onSubmit={handleSubmit}>
           <label htmlFor="color">Color name: </label>
           <input type="text" name="color" onChange={handleChange} />
