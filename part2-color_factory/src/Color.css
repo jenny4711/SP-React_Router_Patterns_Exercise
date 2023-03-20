@@ -1,0 +1,29 @@
+nav{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 20rem;
+  background-color: black;
+  color:white;
+}
+nav a{
+  color:white;
+}
+ul{
+  list-style: none;
+}
+ul a{
+  color:Black;
+  font-size: 1.5rem;
+
+}
+.addcolor-list{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height:30rem;
+  
+
+}

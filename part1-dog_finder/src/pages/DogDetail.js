@@ -17,7 +17,7 @@ const DogDetail = () => {
       setDog(data[0]);
     };
     getADogs();
-  }, []);
+  }, [name]);
 
   const fact = dog.facts;
 
